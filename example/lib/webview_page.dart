@@ -59,7 +59,6 @@ class _WebViewXPageState extends State<WebViewXPage> {
               ),
               Expanded(
                 child: Scrollbar(
-                  isAlwaysShown: true,
                   child: SizedBox(
                     width: min(screenSize.width * 0.8, 512),
                     child: ListView(
